@@ -10,7 +10,7 @@ import { ICoursePlace } from 'src/app/_classes/icourseplace';
 })
 export class CourseService {
 
-  BASE_URL: string = 'http://localhost:8081/course';
+  BASE_URL: string = 'https://poneyclub.herokuapp.com/course';
   getCoursesUrl: string = `${this.BASE_URL}/get-courses`;
   addCourseUrl: string = `${this.BASE_URL}/plan`;
   addRecurrentCourseUrl: string = `${this.BASE_URL}/plan/recurrent-course`;

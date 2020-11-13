@@ -10,7 +10,7 @@ import { TokenStorageService } from 'src/app/_auth/token-storage.service';
 })
 export class UserService {
 
-  private BASE_URL = 'http://localhost:8081';
+  private BASE_URL = 'https://poneyclub.herokuapp.com/';
   private signupUrl = `${this.BASE_URL}/user/create-rider`;
   private updateUserUrl = `${this.BASE_URL}/user/update-user`;
   private changeToAdminUrl = `${this.BASE_URL}/user/convert-to-admin`;
