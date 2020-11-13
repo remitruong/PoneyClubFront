@@ -8,7 +8,7 @@ import { IHorse } from 'src/app/_classes/ihorse';
 })
 export class HorseService {
 
-  BASE_URL: string = 'https://poneyclub.herokuapp.com/';
+  BASE_URL: string = 'https://poneyclub.herokuapp.com';
   createHorseUrl: string = `${this.BASE_URL}/horse/create-horse`;
   getHorsesUrl: string = `${this.BASE_URL}/horse/list-horse`;
   updateHorseUrl: string = `${this.BASE_URL}/horse/update-horse`;

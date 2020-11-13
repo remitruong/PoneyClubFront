@@ -13,7 +13,7 @@ let users = JSON.parse(localStorage.getItem('users')) || [];
 
 @Injectable({ providedIn: 'root' })
 export class AuthenticationService {
-  private BASE_URL = 'https://poneyclub.herokuapp.com/';
+  private BASE_URL = 'https://poneyclub.herokuapp.com';
   private connectUrl = `${this.BASE_URL}/login`;
   private currentUserSubject: BehaviorSubject<User>;
   public currentUser: Observable<User>;
